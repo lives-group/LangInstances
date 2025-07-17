@@ -4,7 +4,7 @@ A imagem a seguir mostra a tela principal do programa de testes da linguagem Lan
 Este programa tem por objetivo testar diferentes estágios do compilador da Lang sobre um conjunto de instâncias pré-determinadas.  
 Os resultados obtidos são automaticamente comparados com os resultados esperados, e um relatório de erros é gerado indicando quais instâncias falharam.
 
-![image](figs/principal.png =550x)
+![image](/figs/principal.png =550x)
 
 A aplicação precisa ser configurada para executar o compilador a partir do diretório **onde o programa de testes está localizado**, como será explicado a seguir.  
 Os arquivos de teste estão localizados nas pastas *sintaxe*, *types* e *semantica*, correspondendo aos testes dos estágios de análise sintática, verificação de tipos e interpretação, respectivamente.
