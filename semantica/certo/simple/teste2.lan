@@ -1,0 +1,23 @@
+
+--Saída esperada:
+
+--*****
+--****
+--***
+--**
+--*
+---- The marvelous env Debugger ------ 
+--nlines  :  5
+--i  :  0
+
+main() {
+   v = new Int[5];
+   iterate(i : 5)
+     v[i] = i;
+   i = 5;
+   iterate(v){
+     iterate(i){ print '*';}
+     i = i - 1;
+     print '\n';
+   }
+}
